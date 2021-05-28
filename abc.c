@@ -2,9 +2,14 @@
 void main()
 {
 	int i;
-
+	int n=5;
 	for(i=0;i<10;i++)
 	{
-		printf("i value is %d",&i);
+		printf("i value is %d",i);
+		
+	}
+	for(i=1;i<=10;i++)
+	{
+	 printf("\n  %d",i*n);
 	}
 }
